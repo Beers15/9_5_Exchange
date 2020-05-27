@@ -1,0 +1,24 @@
+{
+  "name": "final-project-team9-5",
+  "version": "1.0.0",
+  "description": "mongoDB and redis must be running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "pm2 start pm2-apps.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^4.4.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfsu-667-spring-2020/final-project-team9-5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sfsu-667-spring-2020/final-project-team9-5/issues"
+  },
+  "homepage": "https://github.com/sfsu-667-spring-2020/final-project-team9-5#readme"
+}

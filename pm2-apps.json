@@ -1,0 +1,25 @@
+{
+    "apps": [
+        {
+            "name": "gateway-server",
+            "script": "./backend/gateway.js",
+            "node_args": "--max_old_space_size=8192"
+        },
+        {
+            "name": "reciept-service",
+            "script": "./backend/api/reciept_service.js"
+        },
+        {
+            "name": "auth-service",
+            "script": "./backend/api/auth_service.js"
+        },
+        {
+            "name": "inventory-service",
+            "script": "./backend/api/inventory_service.js"
+        },
+        {
+            "name": "transaction-service",
+            "script": "./backend/api/transaction_service.js"
+        }
+    ]
+}
